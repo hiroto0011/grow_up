@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>グローアップ株式会社</title>
+	<meta name="description" content="グローアップ株式会社は常に向上心と目的意識を持って働ける場を提供する 個の能力の可能性を見いだし、提示することによって人生の選択肢を増やす 性別、国籍、年齢に関係なく働ける場を提供し、人材に流動性を持たせる事を目的としております。" />
+	<meta name="keywords" content="グローアップ株式会社" />
+    <link href="css/reset.css" type="text/css" rel="stylesheet" />
+	<link href="css/common.css" type="text/css" rel="stylesheet" />
+    <script src="js/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		
+		$(function(){
+		$('#download_file').click(function (){
+		
+		var value = $("input[name='target']:checked").val();
+		//ラジオボタンのいづれかが選択されていれば、その値をつけてサブミットする
+		if( value != ""){
+			
+			window.location.href ='download_file.php?download_id=' + value;
+			return;
+		
+		}else{
+		
+		alert("ダウンロードするファイルを選択してください");
+		return;
+		
+		}
+		
+		});
+		});
+</script>
+
+	<!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+<table>
+<caption>csvファイル一覧</caption>
+<tr>
+<th></th>
+<th>名前</th>
+<th>提出時間</th>
+</tr>
+
+<tr>
+<td><input type='radio' name='target' value='ccdx01-38-16'></td>
+<td>あ あ</td>
+<td>2017-09-25 13:38:16</td></tr>
+<tr>
+<td><input type='radio' name='target' value='4lwe01-14-38'></td>
+<td>ああ ああ</td>
+<td>2017-09-25 13:14:38</td></tr>
+<tr>
+<td><input type='radio' name='target' value='jCcA10-50-56'></td>
+<td>榎本 千聡</td>
+<td>2017-09-25 10:50:57</td></tr>
+
+</table>
+<button id="download_file">ダウンロード</button>
+
+
+
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>名前</th>
+        <th>メールアドレス</th>
+        <th>電話番号</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+          <td>煌木 太郎</td>
+          <td>taro.kirameki@example.com</td>
+          <td>09011112222</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+          <td>煌木 次郎</td>
+          <td>jiro.kirameki@example.com</td>
+          <td>09033334444</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+          <td>煌木 花子</td>
+          <td>hanako.kirameki@example.com</td>
+          <td>09055556666</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>

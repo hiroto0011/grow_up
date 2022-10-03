@@ -1,0 +1,17 @@
+#ErrorDocument 503 /maintenance.html
+
+#<IfModule mod_rewrite.c>
+#  RewriteEngine On
+#  RewriteCond %{REQUEST_URI} !=/maintenance.html
+#  RewriteCond %{REMOTE_ADDR} !=192.168.11.7
+#  RewriteCond %{REMOTE_ADDR} !=153.209.205.184
+#  RewriteRule ^.*$ - [R=503,L]
+#</IfModule>
+
+
+<Files ~ "^\.ht">
+deny from all
+</Files>
+
+# Default Page Change
+DirectoryIndex index.php index.html

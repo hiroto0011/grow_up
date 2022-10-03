@@ -1,0 +1,48 @@
+
+span.hissu {                  /*必須アイコン*/
+  display: inline-block;
+  background: #df002c;
+  padding: 1px 5px;
+  margin-right: 5px;           /*後ろの文字列との間隔*/
+  vertical-align: middle;     /*後ろの文字列と上下中央揃え*/
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3px;         /*アイコンの角を丸める*/
+}
+span.daimei{                  /*タイトルの文字を大きく*/
+  font-size: 15px;
+}
+span.button {
+  margin-left: 50px;          /*ボタンの位置ずらし*/
+}
+input[type=text]{             /*名前欄・郵便番号欄*/
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+}
+input[type=kaisya]{           /*会社名*/
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+}
+input[type=school]{           /*学校名*/
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+}
+input[type=email]{            /*メールアドレス欄*/
+  width: 230px;
+  height: 30px;
+  font-size: 20px;
+}
+input[type=tel]{              /*電話番号*/
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+}
+input[type=address]{              /*市区町村・丁目番地*/
+  width: 198px;
+  height: 30px;
+  font-size: 20px;
+}

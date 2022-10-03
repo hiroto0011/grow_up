@@ -1,0 +1,43 @@
+#h2_m{color: #7FC3EA; font-size: 220%; text-align: center;}
+
+
+dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+
+.list_kigyou{
+	width: 700px;
+	display:bluck;
+	border-right: 1px solid #333333;
+	border-left: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	margin: 2px;
+
+}
+
+
+.list_kigyou dt, .list_kyujin dd{
+	padding: 5px 4px 5px 4px;
+}
+
+.list_kigyou dl {border-top: 0px solid #333333;}
+
+.list_kigyou dt {
+	width: 92px;
+	color: #ffffff;
+	clear: both;
+	float: left;
+	background-color:  #7FC3EA;
+	border-top: 1px solid #333333;
+	border-right: 1px solid #333333;
+}
+.list_kigyou dd {
+	margin-left: 100px;
+	border-top: 1px solid #333333;
+	border-left: 1px solid #333333;
+}
+
+#entry{ width: 92px;  text-align: center;}
+
+#sidekine{border-style : solid; width  :600; border-width:1px;}
